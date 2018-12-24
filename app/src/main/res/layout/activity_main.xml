@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMain">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/btnMilktea"
+                android:text="伯爵奶茶那堤"
+                android:layout_weight="1"
+                android:textColor="#008866"
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/btnLatte"
+                android:text="耶誕雪白巧克力那堤"
+                android:textColor="#AA0000"
+                android:background="@android:color/transparent"
+                android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/img1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:textSize="10dp"
+                android:id="@+id/txtPrice"
+                android:gravity="center"
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="伯爵奶茶那堤"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/btnMless"
+                android:text="-"
+                android:textSize="20dp"
+                android:textColor="#008866"
+                android:background="@android:color/transparent"
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/txtMcount"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="10dp"
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/btnMadd"
+                android:text="+"
+                android:textSize="20dp"
+                android:textColor="#AA0000"
+                android:background="@android:color/transparent"
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:text="0"
+                android:id="@+id/txtMilkteaSub"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="耶誕雪白巧克力那堤"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/btnLless"
+                android:text="-"
+                android:textSize="20dp"
+                android:textColor="#008866"
+                android:background="@android:color/transparent"
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/txtLcount"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="10dp"
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/btnLadd"
+                android:text="+"
+                android:textSize="20dp"
+                android:textColor="#AA0000"
+                android:background="@android:color/transparent"
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:text="0"
+                android:id="@+id/txtLatteSub"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="0"
+                android:id="@+id/txtTotal"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/btnPay"
+                android:text="結帳"
+                android:textSize="20dp"
+                android:textColor="#AA0000"
+                android:layout_weight="4"
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
