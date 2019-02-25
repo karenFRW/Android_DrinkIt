@@ -5,11 +5,11 @@ This is an simple order system in Android App for beginner.
 
 ![image](https://github.com/karenFRW/DrinkIt/blob/master/one.png)
 
-2. There's two options, ImageView will show user how it looks like after user choose one.
+2. There's two options, ImageView will shows user how it looks like after user choose one.
 
 ![image](https://github.com/karenFRW/DrinkIt/blob/master/two.png)
 
-3. Toast will show qualitity when user add more or reduce it.
+3. Toast will shows qualitity when user add more or reduce it.
 
 ![image](https://github.com/karenFRW/DrinkIt/blob/master/three.png)
 
@@ -17,6 +17,6 @@ This is an simple order system in Android App for beginner.
 
 ![image](https://github.com/karenFRW/DrinkIt/blob/master/four.png)
 
-5. After all, use the "結帳"Button popup a dialog let user confirm.
+5. After all, use the "結帳"Button, then popup a dialog let user confirm.
 
 ![image](https://github.com/karenFRW/DrinkIt/blob/master/five.png)
